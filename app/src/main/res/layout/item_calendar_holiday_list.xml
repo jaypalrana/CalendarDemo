@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/layout_margin_bottom"
+    android:background="@color/white"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/calendarImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:tint="@color/image_color"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/calendar_svg"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_text_color"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:fontFamily="@font/lato_regular"
+        app:layout_constraintStart_toEndOf="@id/calendarImg"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="12 Nov"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/festivalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Festival name"
+        android:fontFamily="@font/lato_regular"
+        android:textColor="@color/image_color"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        app:layout_constraintStart_toEndOf="@id/calendarImg"
+        app:layout_constraintTop_toBottomOf="@id/date"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
