@@ -2,7 +2,7 @@
     <string name="app_name">CalendarDemo</string>
     <string name="no_internet">Please Check Your Internet Connection And Try Again</string>
     <string name="txt_time_of_requests">Time off requests</string>
-    <string name="txt_my_time_off_balance">My Time off Balance</string>
+    <string name="txt_my_time_off_balance">My time off Balance</string>
     <string name="txt_new">New</string>
     <string name="paid_vacation">Paid Vacation</string>
     <string name="sick_leave">Sick Leave</string>
@@ -12,7 +12,7 @@
     <string name="tue">Tue</string>
     <string name="sat">Sat</string>
     <string name="fri">Fri</string>
-    <string name="thur">Thur</string>
+    <string name="thur">Thu</string>
     <string name="wed">Wed</string>
     <string name="my_calendar">My Calendar</string>
 </resources>
