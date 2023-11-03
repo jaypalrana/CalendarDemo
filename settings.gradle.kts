@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BaseStructure"
+rootProject.name = "CalendarDemo"
 include(":app")
  
